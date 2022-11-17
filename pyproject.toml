@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "local-to-spotify"
+version = "0.1.0"
+description = ""
+authors = ["Francisco Aguilera <aguimorefran@gmail.com>"]
+readme = "README.md"
+packages = [{include = "local_to_spotify"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tqdm = "^4.64.1"
+spotipy = "^2.21.0"
+python-dotenv = "^0.21.0"
+eyed3 = "^0.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
